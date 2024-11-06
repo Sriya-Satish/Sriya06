@@ -1,0 +1,97 @@
+#include<stdio.h>
+#include<string.h>
+struct planet
+{
+  char name[20];
+  int moon;
+  float distance;
+};
+
+int main()
+{
+
+struct planet planet1;
+struct planet planet2;
+struct planet planet3;
+struct planet planet4;
+struct planet planet5;
+struct planet planet6;
+struct planet planet7;
+struct planet planet8;
+struct planet planet9;
+
+ strcpy(planet1.name,"MERCURY");
+ planet1.distance=57,900,000;
+ planet1.moon=0;
+ 
+ strcpy(planet2.name,"VENUS");
+ planet2.distance=108,200,000;
+planet2.moon=0;
+
+strcpy(planet3.name,"EARTH");
+ planet3.distance=149,600,000;
+planet3.moon=1;
+
+strcpy(planet4.name,"MARS");
+ planet4.distance=227,900,000;
+planet4.moon=2;
+
+strcpy(planet5.name,"JUPITER");
+ planet5.distance=778,600,000;
+planet5.moon=80;
+
+strcpy(planet6.name,"SATURN");
+ planet6.distance=1,433,500,000;
+planet6.moon=83;
+
+strcpy(planet7.name,"URANUS");
+ planet7.distance=2,872,500,000;
+planet7.moon=27;
+
+strcpy(planet8.name,"NEPTUNE");
+ planet8.distance=4,495,100,000;
+planet8.moon=14;
+
+strcpy(planet9.name,"PLUTO");
+ planet9.distance=5,95,952,000;
+planet9.moon=5;
+
+printf("NAME:%s\n",planet1.name);
+printf("DISTANCE FROM SUN:%f\n",planet1.distance);
+printf("NUMBER OF MOONS:%d\n",planet1.moon);
+printf("\n");
+printf("NAME:%s\n",planet2.name);
+printf("DISTANCE FROM SUN:%f\n",planet2.distance);
+printf("NUMBER OF MOONS:%d\n",planet2.moon);
+printf("\n");
+printf("NAME:%s\n",planet3.name);
+printf("DISTANCE FROM SUN:%f\n",planet3.distance);
+printf("NUMBER OF MOONS:%d\n",planet3.moon);
+printf("\n");
+printf("NAME:%s\n",planet4.name);
+printf("DISTANCE FROM SUN:%f\n",planet4.distance);
+printf("NUMBER OF MOONS:%d\n",planet4.moon);
+printf("\n");
+printf("NAME:%s\n",planet5.name);
+printf("DISTANCE FROM SUN:%f\n",planet5.distance);
+printf("NUMBER OF MOONS:%d\n",planet5.moon);
+printf("\n");
+printf("NAME:%s\n",planet6.name);
+printf("DISTANCE FROM SUN:%f\n",planet6.distance);
+printf("NUMBER OF MOONS:%d\n",planet6.moon);
+printf("\n");
+printf("NAME:%s\n",planet7.name);
+printf("DISTANCE FROM SUN:%f\n",planet7.distance);
+printf("NUMBER OF MOONS:%d\n",planet7.moon);
+printf("\n");
+printf("NAME:%s\n",planet8.name);
+printf("DISTANCE FROM SUN:%f\n",planet8.distance);
+printf("NUMBER OF MOONS:%d\n",planet8.moon);
+printf("\n");
+printf("NAME:%s\n",planet9.name);
+printf("DISTANCE FROM SUN:%f\n",planet9.distance);
+printf("NUMBER OF MOONS:%d\n",planet9.moon);
+printf("\n");
+    printf("THE PLANET WITH HIGHEST MOON:\n");
+    printf("%d",planet6.moon);
+}
